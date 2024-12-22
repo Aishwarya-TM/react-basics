@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "AI",
+      "checked": true
+    },
+    {
+      "id": "2",
+      "name": "ML",
+      "checked": false
+    },
+    {
+      "id": "3",
+      "name": "DS",
+      "checked": false
+    },
+    {
+      "id": "4",
+      "name": "DSA",
+      "checked": true
+    },
+    {
+      "id": "5",
+      "name": "MERN",
+      "checked": false
+    }
+  ]
+}

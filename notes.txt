@@ -1,0 +1,17 @@
+ippa oru button iruku andha button ku neenga onclick events write pandringa handleClick() ipdi irundhudhu na it is will be executed even boefore hitting the button en na..it is a fucnction calling so eppolam
+compile aagumo adhu automatic ah call pannikkum. instead use a anonymous function,button hit panna dhan execute aaganum na,use anonymous fuction like ()=>handleclick();. handleclick ipdi pottalum correct ah dha work aagum.
+
+use state is a hook:
+it should not be used in a class components
+use state is a hook in functional components
+use state will execute in a order. so condition la usestate use panna mudiyathu like if{ usestate()} like this.
+use state kulla functions ah direct ah call panna koodathu like usestate(fn()) en na eppolam refresh aagumoo aapolam adhu execute aagiteh irukum.no enaku apdi onnu venum na u can use like usestate(() => fn())
+
+Props is an object. namba normal ah epdi oru obj treat pandrome athey mathridhan props um let assume i have name, id, age idhula collective ah represent pandrathu dha props idhula irundhu particular venum na we can assess like
+props.name, props.id, props.age.
+
+useeffect - used to handle the side effects such as fetching data and updating DOM
+useeffect is a hook which is used in functional components. useeffect la dependency array [] podalana any chances app la nadandhudha na..use effect render aagiteh irukum which will slow down the app. empty dependecny array potta, it will be rendered once only adhuvum eppa na..when the app is loaded for the very first time.
+
+CRUD operation in React:
+uses a file named apiRequest.jsx
